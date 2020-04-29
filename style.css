@@ -8,6 +8,16 @@ body{
   background: #5c677d;
 }
 
+.source {
+	position: fixed;
+	font-size: 10px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
 .footer {
 	position: fixed;
 	font-size: 10px;
@@ -22,12 +32,23 @@ body{
 
  @media screen and (orientation:portrait) {
 	 
-.footer a{
+.source a{
   display: inline-flex;
   text-decoration: none;
   font-size: 100px;
   width: 10px;
-  height: 20px;
+  height: 10px;
+  color: #F0F8FF;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 80px;
+}
+
+.footer a{
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 10px;
   color: #F0F8FF;
   justify-content: center;
   align-items: center;
@@ -63,18 +84,29 @@ body{
  
  @media screen and (orientation:landscape) {
 	 
-.footer a{
+.source a{
   display: inline-flex;
   text-decoration: none;
   font-size: 50px;
   width: 10px;
-  height: 20px;
+  height: 100px;
   color: #F0F8FF;
   justify-content: center;
   align-items: center;
   position: relative;
   margin: 0 80px;
-}	 
+}
+
+.footer a{
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 10px;
+  color: #F0F8FF;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 80px;
+}		 
 	 
   .social-buttons a{
   display: inline-flex;
