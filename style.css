@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #495464;
+}
+
+.social-buttons a{
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 40px;
+  width: 120px;
+  height: 120px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 80px;
+}
+
+.social-buttons a i{
+  transition: 0.2s ease;
+}
+
+.social-buttons a:hover i{
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(2.2);
+}
