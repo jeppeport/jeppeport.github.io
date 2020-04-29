@@ -18,6 +18,10 @@ body{
 	text-align: center;
 }
 
+
+
+ @media screen and (orientation:portrait) {
+	 
 .footer a{
   display: inline-flex;
   text-decoration: none;
@@ -30,9 +34,8 @@ body{
   position: relative;
   margin: 0 80px;
 }
-
- @media screen and (orientation:portrait) {
-  .social-buttons a{
+	 
+.social-buttons a{
   display: inline-flex;
   text-decoration: none;
   font-size: 200px;
@@ -59,6 +62,20 @@ body{
  }
  
  @media screen and (orientation:landscape) {
+	 
+.footer a{
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 50px;
+  width: 10px;
+  height: 20px;
+  color: #F0F8FF;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 80px;
+}	 
+	 
   .social-buttons a{
   display: inline-flex;
   text-decoration: none;
