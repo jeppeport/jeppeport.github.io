@@ -8,8 +8,7 @@ body{
   background: #495464;
 }
 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) { 
+ @media screen and (orientation:portrait) {
   .social-buttons a{
   display: inline-flex;
   text-decoration: none;
@@ -20,75 +19,44 @@ body{
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 0 80px;  
-}
-
-.social-buttons a:hover i{
-  background: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: text;
-  transform: scale(2);
-}
+  margin: 0 80px;
+  
+ }
 
 .social-buttons a i{
-  transition: 0.3s ease-in;
-}
-
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
-  .social-buttons a{
-  display: inline-flex;
-  text-decoration: none;
-  font-size: 100px;
-  width: 800px;
-  height: 150px;
-  color: #F0F8FF;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 800 800px;
-}
-
-.social-buttons a:hover i{
-  background: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: text;
-  transform: scale(2);
-}
-
-.social-buttons a i{
-  transition: 0.3s ease-in;
-}
-
-}
-
-/* Landscape phones and down */
-@media (max-width: 480px) { 
-  .social-buttons a{
-  display: inline-flex;
-  text-decoration: none;
-  font-size: 100px;
-  width: 800px;
-  height: 150px;
-  color: #F0F8FF;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 800 800px;
-}
+  transition: 0.15s ease-in;
+ }
 
 .social-buttons a:hover i{
   background: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: text;
   transform: scale(1.5);
-}
+ }	 
+ }
+ @media screen and (orientation:landscape) {
+  .social-buttons a{
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 100px;
+  width: 100px;
+  height: 120px;
+  color: #F0F8FF;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 80px;
+  
+ }
 
 .social-buttons a i{
-  transition: 0.3s ease-in;
-}
+  transition: 0.15s ease-in;
+ }
 
+.social-buttons a:hover i{
+  background: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: text;
+  transform: scale(1.5);
+ }
 }
-
