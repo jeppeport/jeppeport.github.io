@@ -8,6 +8,11 @@ body{
   background: #5c677d;
 }
 
+.object {
+ text-allign:center;
+  color: white;
+}
+
 .source {
 	position: fixed;
 	font-size: 10px;
