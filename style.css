@@ -21,6 +21,7 @@ section {
   position: relative;
 }
 
+@media screen and (orientation:landscape) {
 .social-button {
   width: 100%;
   position: absolute;
@@ -45,7 +46,38 @@ section {
   -webkit-text-fill-color: text;
   transform: scale(1.5);
  }
- 
+}
+
+@media screen and (orientation:portrait) {
+.social-button {
+  width: 100%;
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+
+}
+
+.social-button a {
+	display: inline-block;
+	font-size: 200px;
+	color: #F0F8FF;
+	margin: 0 80px;
+    width: 800px;
+    height: 300px;	
+}
+
+.social-button a i{
+  transition: 0.15s ease-in;
+}
+
+.social-button a:hover i{
+  background: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: text;
+  transform: scale(1.5);
+ }
+}
+
 .scroll {
   margin: auto;
   width: 32;
