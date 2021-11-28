@@ -1,3 +1,7 @@
+* {
+	font-family: "Courier New", monospace;
+}
+
 body {
 	margin:40px auto;
 	max-width:650px;
@@ -5,19 +9,10 @@ body {
 	font-size:18px;
 	color:#ddd;
 	background: #123;
-	padding:0 10px
-
-	font-family: "Courier New", monospace;
-
-	}
-
-blockquote, aside {
-	font-family: "Courier New", monospace;
-
+	padding:0 10px;
 }
 
 h1,h2,h3 {
-	font-family: "Courier New", monospace;
 	font-weight: 600;
 	line-height:1.2
 }
@@ -27,7 +22,6 @@ i {
 }
 
 .navbar {
-	font-family: "Courier New", monospace;
 	width: 100%;
 }
 
@@ -35,7 +29,6 @@ i {
 	color: #ddd;
 	text-decoration: none;
 	font-size: 28px;
-	font-family: "Courier New", monospace;
 	font-weight: 600;
 	padding-right: 32px;
 }
