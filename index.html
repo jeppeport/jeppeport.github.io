@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+
+<section class="home-intro">
+  <h1>Welcome to My Blog 🌿</h1>
+  <p>This is my Jekyll site using the <strong>Persephone</strong> theme.</p>
+</section>
+
+<section class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </article>
+  {% endfor %}
+</section>
