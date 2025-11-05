@@ -23,7 +23,7 @@ exclude:
   - vendor
 
 theme_setting:
-  blog_page: "index.md"
+  blog_page: "blog.md"
   about_page: "about.md"
   archive_page: "archive.md"
 
@@ -32,6 +32,8 @@ theme_setting:
       link: /
     - name: About
       link: /about/
+    - name: Blog
+      link: /blog/
 
   code: true
   math: true
