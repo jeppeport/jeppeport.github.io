@@ -1,14 +1,11 @@
 # Site settings
 title: "Ames Turner"
 description: "Ames' Blog"
-url: "https://jeppeport.github.io"   # Change to your GitHub Pages URL
-baseurl: ""                              # For user/organization site (or "/reponame" for project site)
 
-# Build Settings
-markdown: kramdown
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: "/page:num/"
+
+
+author: "Ames Turner"
+
 
 # Theme
 remote_theme: erlzhang/jekyll-theme-persephone
@@ -26,9 +23,12 @@ exclude:
   - vendor
 
 theme_setting:
-  blog_page: "index.md"
+  blog_page: "blog/index.md"
   about_page: "about.md"
   archive_page: "archive.md"
 
   nav:
     - "about.md"
+
+  code: true
+  math: true
