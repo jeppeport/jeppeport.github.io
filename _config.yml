@@ -25,5 +25,10 @@ exclude:
   - node_modules
   - vendor
 
-nav:
-  - "about.md"
+theme_setting:
+  blog_page: "index.md"
+  about_page: "about.md"
+  archive_page: "archive.md"
+
+  nav:
+    - "about.md"
