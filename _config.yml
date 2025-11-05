@@ -27,10 +27,11 @@ theme_setting:
   about_page: "about.md"
   archive_page: "archive.md"
 
-  - name: Home
-    link: /
-  - name: About
-    link: /about/
+  nav_pages:
+    - name: Home
+      link: /
+    - name: About
+      link: /about/
 
   code: true
   math: true
