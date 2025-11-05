@@ -4,10 +4,6 @@ description: "Ames' Blog"
 url: "https://jeppeport.github.io"   # Change to your GitHub Pages URL
 baseurl: ""                              # For user/organization site (or "/reponame" for project site)
 
-# Author Info
-author:
-  name: "Ames Turner" #  Default is your site title.
-
 # Build Settings
 markdown: kramdown
 permalink: /:categories/:title/
@@ -28,3 +24,9 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+nav:
+  - name: Home
+    link: /
+  - name: About
+    link: /about/
