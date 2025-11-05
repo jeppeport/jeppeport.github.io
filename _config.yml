@@ -4,7 +4,9 @@ description: Ames' Site
 
 author: Ames Turner #  Default is your site title.
 
-theme: jekyll-theme-persephone
+remote_theme: erlzhang/jekyll-theme-persephone
+plugins:
+  - jekyll-remote-theme
 url: "https://jeppeport.github.io"
 baseurl: ""
 
