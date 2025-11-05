@@ -2,10 +2,10 @@
 title: "Ames Turner"
 description: "Ames' Blog"
 
-
-
 author: "Ames Turner"
 
+social:
+  github: jeppeport
 
 # Theme
 remote_theme: erlzhang/jekyll-theme-persephone
@@ -23,12 +23,16 @@ exclude:
   - vendor
 
 theme_setting:
-  blog_page: "blog/index.md"
+  blog_page: "index.md"
   about_page: "about.md"
   archive_page: "archive.md"
 
-  nav:
-    - "about.md"
+  - name: Home
+    link: /
+  - name: About
+    link: /about/
 
   code: true
   math: true
+
+rss: "/feed.xml"
