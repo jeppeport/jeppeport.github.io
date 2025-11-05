@@ -26,7 +26,4 @@ exclude:
   - vendor
 
 nav:
-  - name: Home
-    link: /
-  - name: About
-    link: /about/
+  - "about.md"
